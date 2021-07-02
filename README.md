@@ -1,5 +1,8 @@
 Configuration repository
 
+## Lab Video
+http://dfr20cpm485ln.cloudfront.net/EKS_HLS_index.html
+
 ## 추가리소스
 
 ### 실습1
@@ -43,3 +46,11 @@ Configuration repository
 * [AWS X-Ray 설명서](https://docs.aws.amazon.com/xray/index.html)
 * [GitHub의 Kubernetes 용 AWS X-Ray](https://github.com/aws-samples/aws-xray-kubernetes)
 * [AWS X-Ray 콘솔](https://docs.aws.amazon.com/xray/latest/devguide/xray-console.html)
+
+### 실습5 : Amazon EKS 통신에 대한 탐구
+ * [Fluentd](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/Container-Insights-setup-logs.html#ContainerInsights-fluentd-volume)
+  * [node 사이즈별 생성 가능한 pod갯수(IP기준)](https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt)
+  * [Envoy 프록시](https://www.envoyproxy.io)
+  * [서비스 연결 역할](https://docs.aws.amazon.com/IAM/latest/UserGuide/using-service-linked-roles.html)
+  * [AWS Systems Manager 세션 관리자](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html)
+  * [Kubernetes DNS](https://kubernetes.io/docs/tasks/administer-cluster/dns-custom-nameservers/)
